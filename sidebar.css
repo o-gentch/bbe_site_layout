@@ -24,3 +24,7 @@ nav ul ul li {
   color: rgba(0, 0, 0, 0.4);
   margin-left: 10px;
 }
+
+nav ul ul ul li {
+  color: red;
+}
