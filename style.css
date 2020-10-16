@@ -184,6 +184,20 @@ li {
   margin-top: 17px;
 }
 
+article ul li {
+  list-style: disc;
+}
+
+article ol li {
+  list-style: decimal;
+  width: 680px;
+  margin-left: 20px;
+}
+
+a {
+  color: inherit;
+}
+
 b {
   font-weight: bold;
 }
