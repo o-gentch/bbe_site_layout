@@ -2,7 +2,14 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  margin: 50px;
+  margin: 20px;
+  width: 330px;
+  padding: 14px 30px 27px;
+  opacity: 0.5;
+}
+
+nav:hover {
+  opacity: 1;
 }
 
 nav a {

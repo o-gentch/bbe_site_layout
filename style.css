@@ -2,67 +2,90 @@ body {
   /* background-image: url('Wikimedium-Post.jpg'); */
   background-repeat: no-repeat;
   background-position: center top;
+  font-family: 'PT Sans', sans-serif;
 }
 
-h1, h2, h3, h4, p, ol, ul, blockquote {
+a {
+  color: inherit;
+}
+
+article {
+  padding-bottom: 70px;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article ol,
+article p,
+article ul,
+article blockquote {
   width: 700px;
   margin: auto;
 }
 
-h1, h2, h3, h4 {
+
+article h1,
+article h2,
+article h3,
+article h4 {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
 }
 
-p, blockquote, ol, ul, li, b, i {
+
+article p,
+article blockquote,
+article li {
   font-family: 'PT Sans', sans-serif;
 }
 
-img {
+article img {
   width: 880px;
   margin: auto;
   margin-top: 80px;
   display: block;
 }
 
-img + p,
-img + ul,
-img + blockquote {
+article img + p,
+article img + ul,
+article img + blockquote {
   margin-top: 78px;
 }
 
-img + h1 {
+article img + h1 {
   margin-top: 76px;
 }
 
-img + h3 {
+article img + h3 {
   margin-top: 80px;
 }
 
-img + h4 {
+article img + h4 {
   margin-top: 81px;
 }
 
-p {
+article p {
   font-size: 22px;
   line-height: 34px;
 }
 
-p + h2 {
+article p + h2 {
   margin-top: 43px;
 }
 
-h1 {
+article h1 {
   font-size: 40px;
   line-height: 46px;
   margin-top: 66px;
 }
 
-h1 + h2 {
+article h1 + h2 {
   margin-top: 43px;
 }
 
-h1 + p {
+article h1 + p {
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 22px;
   line-height: 32px;
@@ -70,69 +93,69 @@ h1 + p {
   margin-top: 14px;
 }
 
-h1 + p + p {
+article h1 + p + p {
   margin-top: 30px;
 }
 
-h2 {
+article h2 {
   font-size: 32px;
   line-height: 36px;
   margin-top: 79px;
 }
 
-h2 + p,
-h3 + p,
-h4 + p,
-h2 + ul,
-h3 + ul,
-h4 + ul,
-h2 + ol,
-h3 + ol,
-h4 + ol,
-h1 + blockquote,
-h2 + blockquote,
-h3 + blockquote,
-h4 + blockquote {
+article h2 + p,
+article h3 + p,
+article h4 + p,
+article h2 + ul,
+article h3 + ul,
+article h4 + ul,
+article h2 + ol,
+article h3 + ol,
+article h4 + ol,
+article h1 + blockquote,
+article h2 + blockquote,
+article h3 + blockquote,
+article h4 + blockquote {
   margin-top: 7px;
 }
 
-h2 + h3 {
+article h2 + h3 {
   margin-top: 37px;
 }
 
-h2 + p + p {
+article h2 + p + p {
   margin-top: 29px;
 }
 
-h2 + img {
+article h2 + img {
   margin-top: 82px;
 }
 
-h3 {
+article h3 {
   font-size: 28px;
   line-height: 34px;
   margin-top: 35px;
 }
 
-h3 + p + p {
+article h3 + p + p {
   margin-top: 29px;
 }
 
-h3 + img {
+article h3 + img {
   margin-top: 81px;
 }
 
-h4 {
+article h4 {
   font-size: 24px;
   line-height: 30px;
   margin-top: 33px;
 }
 
-h4 + img {
+article h4 + img {
   margin-top: 82px;
 }
 
-blockquote {
+article blockquote {
   position: relative;
   font-style: italic;
   font-size: 22px;
@@ -140,7 +163,7 @@ blockquote {
   margin-top: 29px;
 }
 
-blockquote::before {
+article blockquote::before {
   content: "";
   display: block;
   position: absolute;
@@ -150,35 +173,35 @@ blockquote::before {
   margin-left: -20px;
 }
 
-blockquote + p {
+article blockquote + p {
   margin-top: 29px;
 }
 
-blockquote + h2,
-blockquote + h3,
-blockquote + h4 {
+article blockquote + h2,
+article blockquote + h3,
+article blockquote + h4 {
   margin-top: 43px;
 }
 
-ul {
+article ul {
   font-size: 22px;
   line-height: 34px;
   margin-top: 29px;
   width: 670px;
 }
 
-ul + p {
+article ul + p {
   margin-top: 29px;
 }
 
-ol {
+article ol {
   font-size: 22px;
   line-height: 34px;
   margin-top: 29px;
   width: 670px;
 }
 
-li {
+article li {
   font-size: 22px;
   line-height: 34px;
   margin-top: 17px;
@@ -194,14 +217,10 @@ article ol li {
   margin-left: 20px;
 }
 
-a {
-  color: inherit;
-}
-
-b {
+article b {
   font-weight: bold;
 }
 
-i {
+article i {
   font-style: italic;
 }
