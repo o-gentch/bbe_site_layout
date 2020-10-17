@@ -7,9 +7,6 @@ html, body {
 }
 
 body {
-  /* background-image: url('Wikimedium-Post.jpg'); */
-  background-repeat: no-repeat;
-  background-position: center top;
   font-family: 'PT Sans', sans-serif;
   background: #FAFAFA
 }
