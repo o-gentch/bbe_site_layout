@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  /* background-image: url('Wikimedium-Post.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: 'PT Sans', sans-serif;
+  background: #FAFAFA
+}
+
+a {
+  color: inherit;
+}
