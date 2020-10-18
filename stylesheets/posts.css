@@ -5,10 +5,6 @@ body.posts {
   background: #FAFAFA
 }
 
-section {
-
-}
-
 .postTeaser {
   display: block;
   width: 740px;
@@ -51,11 +47,14 @@ section {
 @media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
   .postTeaser figure {
     width: calc(100vw - 20px);
-    margin-top: 70px;
   }
 }
 
 @media (max-width: 767px) {
+
+  body.posts {
+    padding: 59px 0 61px;;
+  }
 
   section {
     width: calc(100vw - 20px)
@@ -63,14 +62,9 @@ section {
 
   .postTeaser {
     display: contents;
-    border-radius: 0px;
-    border: 0px solid rgba(0, 0, 0, 0);
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   }
 
-  body.posts {
-    padding: 70px 0 70px;
-    background: #FFFFFF;
+  .postTeaser figure {
+    margin-top: 61px;
   }
-
 }
