@@ -9,8 +9,8 @@ body.posts {
   display: block;
   width: 740px;
   padding: 20px 20px 30px;
-  text-decoration: none;
 
+  text-decoration: none;
   background: #FFFFFF;
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -22,14 +22,13 @@ body.posts {
 }
 
 .postTeaser figure {
-  margin-top: 30px;
-  margin-bottom: 30px;
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 
 .postTeaser h2 {
+  margin-top: 30px;
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
   font-size: 28px;
@@ -44,27 +43,36 @@ body.posts {
   color: rgba(0, 0, 0, 0.4);
 }
 
-@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
-  .postTeaser figure {
-    width: calc(100vw - 20px);
-  }
+.postTeaser h2:first-child {
+  margin-top: 0;
 }
 
-@media (max-width: 767px) {
+@media (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
 
   body.posts {
-    padding: 59px 0 61px;;
+    padding: 120px 0 70px;
+    background: none;
   }
 
-  section {
-    width: calc(100vw - 20px)
+  body.posts > section {
+    width: calc(100% - 20px);
   }
 
   .postTeaser {
-    display: contents;
+    width: 100%;
+    padding: 0;
+
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
   }
 
   .postTeaser figure {
-    margin-top: 61px;
+    width: calc(100vw - 20px);
+    height: calc(100vw - 20px);
+  }
+
+  .postTeaser h2:first-child {
+    margin-top: 70px;
   }
 }
