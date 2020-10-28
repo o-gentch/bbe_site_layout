@@ -19,7 +19,7 @@ menu div {
   max-width: 1920px;
   height: 50px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 menu a {
@@ -31,14 +31,14 @@ menu a {
   transition: all 0.3s ease;
 }
 
-menu a:hover {
-  color: rgba(0, 0, 0, 0.8)
-}
-
 menu a:first-child {
   width: 180px;
   height: 16px;
   background-image: url('../images/logo.svg');
+}
+
+menu a:hover {
+  color: rgba(0, 0, 0, 0.8)
 }
 
 menu a.current {
@@ -47,4 +47,10 @@ menu a.current {
 
 menu a.current:hover {
   color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1440px) {
+  menu div {
+    padding: 0 20px;
+  }
 }
