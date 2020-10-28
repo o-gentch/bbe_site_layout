@@ -20,7 +20,7 @@ footer {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1240px) {
   footer {
     font-size: 12px;
     line-height: 16px;

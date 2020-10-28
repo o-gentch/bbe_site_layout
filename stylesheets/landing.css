@@ -217,7 +217,7 @@ body.landing {
 }
 
 
-@media (max-width: 1194px) {
+@media (max-width: 1240px) {
   body.landing {
    background-image: url('../images/1194.jpg');
   }
