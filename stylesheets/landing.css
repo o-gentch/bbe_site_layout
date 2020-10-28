@@ -116,7 +116,7 @@ body.landing {
   text-align: center;
 }
 
-#section-4 .buttomContainer {
+#section-4 .bottomContainer {
   display: flex;
   justify-content: center;
   margin-top: 80px;
@@ -281,6 +281,30 @@ body.landing {
     left: 556px;
     width: 1021px;
     height: 647px;
+  }
+
+  #section-4 {
+    padding-top: 140px;
+  }
+
+  #section-4 .textContainer {
+    width: 580px;
+  }
+
+  #section-4 .primary,
+  #section-4 .secondary {
+    line-height: 38px;
+    height: 38px;
+    padding: 0 24px;
+    font-size: 12px;
+  }
+
+  #section-4 .bottomContainer {
+    margin-top: 60px;
+  }
+
+  #section-4 .secondary {
+    margin-right: 12px;
   }
 }
 
