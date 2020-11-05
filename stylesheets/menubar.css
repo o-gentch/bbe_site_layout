@@ -54,3 +54,47 @@ menu a.current:hover {
     padding: 0 20px;
   }
 }
+
+@media (max-width: 1240px) {
+  menu a:first-child {
+    width: 150px;
+    height: 14px;
+    background-size: 150px 14px;
+  }
+
+  menu a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait){
+  menu a:first-child {
+    width: 150px;
+    height: 20px;
+    background-size: 150px 20px;
+  }
+
+  menu a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  menu div {
+    padding: 0 32px;
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 414px) {
+  menu a:first-child {
+    width: 160px;
+    height: 14px;
+    background-size: 160px 14px;
+  }
+
+  menu a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
