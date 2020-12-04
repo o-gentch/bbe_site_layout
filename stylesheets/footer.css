@@ -27,7 +27,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 767px) and (orientation: portrait) {
   footer {
     flex-direction: column;
     justify-content: center;
@@ -39,13 +39,11 @@ footer {
     line-height: 16px;
   }
 
-  .ContentFooter:first-child {
-    margin-bottom: 18px;
-  }
+  footer > div:first-child {
+   margin-bottom: 18px;
+ }
 
-  .ContentFooter:last-child {
-    margin-top: 16px;
-  }
-
-
+ footer > div:last-child {
+   margin-top: 16px;
+ }
 }

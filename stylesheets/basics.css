@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html, body {
@@ -8,7 +10,6 @@ html, body {
 
 body {
   font-family: 'PT Sans', sans-serif;
-  background: #FAFAFA
 }
 
 a {

@@ -86,7 +86,7 @@ menu a.current:hover {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 767px) and (orientation: portrait) {
   menu a:first-child {
     width: 160px;
     height: 14px;
